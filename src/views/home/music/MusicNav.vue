@@ -34,7 +34,7 @@ export default {
 
     <div class="app-nav">
       <a href="https://douban.fm/app">
-        <img src="@/assets/home/music/icon_fm_app.jpg" class="app-icon" />
+        <img loading="lazy" src="@/assets/home/music/icon_fm_app.jpg" class="app-icon" />
       </a>
       <div class="app-title">
         <a href="https://douban.fm/app">豆瓣FM</a>
@@ -43,7 +43,7 @@ export default {
 
     <div class="app-nav">
       <a href="https://artist.douban.com/app">
-        <img src="@/assets/home/music/icon_artist_app.jpg" class="app-icon" />
+        <img loading="lazy" src="@/assets/home/music/icon_artist_app.jpg" class="app-icon" />
       </a>
       <div class="app-title">
         <a href="https://artist.douban.com/app">豆瓣音乐人</a>

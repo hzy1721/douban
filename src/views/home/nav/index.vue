@@ -20,7 +20,7 @@ export default {
 <template>
   <div class="home-top-nav">
     <div class="nav-left">
-      <img
+      <img loading="lazy"
         src="@/assets/home/nav/sitename.png"
         style="width: 73px; height: 23px"
         class="sitename"
@@ -40,31 +40,31 @@ export default {
 
     <span class="nav-titles">
       <a target="_blank" href="https://book.douban.com/">
-        <img src="@/assets/home/nav/nav_book.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_book.png" />
       </a>
       <a target="_blank" href="https://movie.douban.com/">
-        <img src="@/assets/home/nav/nav_movie.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_movie.png" />
       </a>
       <a target="_blank" href="https://music.douban.com/">
-        <img src="@/assets/home/nav/nav_music.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_music.png" />
       </a>
       <a target="_blank" href="https://www.douban.com/location/">
-        <img src="@/assets/home/nav/nav_city.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_city.png" />
       </a>
       <a target="_blank" href="https://www.douban.com/group/">
-        <img src="@/assets/home/nav/nav_group.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_group.png" />
       </a>
       <a target="_blank" href="https://read.douban.com/">
-        <img src="@/assets/home/nav/nav_read.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_read.png" />
       </a>
       <a target="_blank" href="https://douban.fm/">
-        <img src="@/assets/home/nav/nav_fm.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_fm.png" />
       </a>
       <a target="_blank" href="https://time.douban.com/">
-        <img src="@/assets/home/nav/nav_time.png" style="margin-bottom: 2px" />
+        <img loading="lazy" src="@/assets/home/nav/nav_time.png" style="margin-bottom: 2px" />
       </a>
       <a target="_blank" href="https://market.douban.com/">
-        <img src="@/assets/home/nav/nav_market.png" />
+        <img loading="lazy" src="@/assets/home/nav/nav_market.png" />
       </a>
     </span>
   </div>

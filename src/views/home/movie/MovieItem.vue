@@ -13,7 +13,7 @@ export default {
   <div class="movie-item">
     <div>
       <a :href="titleUrl">
-        <img class="movie-img" :src="imgUrl" />
+        <img loading="lazy" class="movie-img" :src="imgUrl" />
       </a>
     </div>
 

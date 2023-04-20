@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="photo-title">
     <div>
-      <a :href="titleUrl"><img :src="imgUrl" /></a>
+      <a :href="titleUrl"><img loading="lazy" :src="imgUrl" /></a>
     </div>
     <a :href="titleUrl">{{ title }}</a
     >&nbsp;

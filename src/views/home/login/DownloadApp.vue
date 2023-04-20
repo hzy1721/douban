@@ -21,7 +21,7 @@ export default {
     </div>
 
     <div class="qrcode-part">
-      <img
+      <img loading="lazy"
         src="@/assets/home/login/icon_qrcode_green.png"
         class="qrcode"
         v-show="!expandQrcode"
@@ -32,7 +32,7 @@ export default {
         v-show="expandQrcode"
         @mouseleave="expandQrcode = false"
       >
-        <img src="@/assets/home/login/doubanapp_qrcode.png" />
+        <img loading="lazy" src="@/assets/home/login/doubanapp_qrcode.png" />
         <p>iOS / Android 扫码直接下载</p>
       </div>
     </div>

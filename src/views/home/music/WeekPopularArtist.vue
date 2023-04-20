@@ -58,7 +58,7 @@ export default {
 
     <div class="artist-item" v-for="(artist, index) in popularArtists">
       <span style="vertical-align: top">{{ index + 1 }}. </span>
-      <img :src="artist.imgUrl" style="width: 48px; margin-left: 10px" />
+      <img loading="lazy" :src="artist.imgUrl" style="width: 48px; margin-left: 10px" />
       <div class="text-info">
         <div>
           <a :href="`https://site.douban.com/${artist.name}/`">{{

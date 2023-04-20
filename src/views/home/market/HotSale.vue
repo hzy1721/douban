@@ -49,7 +49,7 @@ export default {
     <div class="product-item" v-for="product in hotProducts">
       <div class="product-img">
         <a :href="`https://market.douban.com/campaign/${product.id}`">
-          <img :src="product.imgUrl" />
+          <img loading="lazy" :src="product.imgUrl" />
         </a>
       </div>
 

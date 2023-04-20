@@ -21,8 +21,8 @@ export default {
 <template>
   <div class="login-tab">
     <div class="switch-btn" @click="qrcodeLogin = !qrcodeLogin">
-      <img src="@/assets/home/login/switch_qrcode.png" v-show="!qrcodeLogin" />
-      <img src="@/assets/home/login/qrcode_login.png" v-show="qrcodeLogin" />
+      <img loading="lazy" src="@/assets/home/login/switch_qrcode.png" v-show="!qrcodeLogin" />
+      <img loading="lazy" src="@/assets/home/login/qrcode_login.png" v-show="qrcodeLogin" />
     </div>
 
     <template v-if="!qrcodeLogin">
@@ -51,7 +51,7 @@ export default {
     <template v-else>
       <div class="qrcode-login-title">二维码登录</div>
       <div class="qrcode-container">
-        <img src="@/assets/home/login/qrlogin_qrcode.png" />
+        <img loading="lazy" src="@/assets/home/login/qrlogin_qrcode.png" />
 
         <div class="qrlogin-hint">
           请打开豆瓣 App 扫一扫 或

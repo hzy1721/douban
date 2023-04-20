@@ -62,7 +62,7 @@ export default {
     <div class="book-item" v-for="book in books">
       <div style="text-align: center">
         <a :href="bookLink(book.bookId)">
-          <img :src="book.imgUrl" style="width: 100px; height: 150px" />
+          <img loading="lazy" :src="book.imgUrl" style="width: 100px; height: 150px" />
         </a>
       </div>
 

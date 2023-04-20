@@ -15,7 +15,7 @@ export default {
 <template>
   <div class="hot-ad">
     <a :href="adUrl">
-      <img :src="imgUrl" />
+      <img loading="lazy" :src="imgUrl" />
     </a>
     <div class="ad-symbol">广告</div>
   </div>

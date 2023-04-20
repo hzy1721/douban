@@ -60,7 +60,7 @@ export default {
     <div class="event-item" v-for="event in events">
       <div class="cover-img">
         <a :href="`https://www.douban.com/event/${event.id}/`">
-          <img :src="event.imgUrl" style="width: 70px; height: 90px" />
+          <img loading="lazy" :src="event.imgUrl" style="width: 70px; height: 90px" />
         </a>
       </div>
 

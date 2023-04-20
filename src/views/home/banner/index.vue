@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="banner">
     <a href="https://www.douban.com/">
-      <img src="@/assets/home/banner/douban_logo.png" />
+      <img loading="lazy" src="@/assets/home/banner/douban_logo.png" />
     </a>
   </div>
 </template>

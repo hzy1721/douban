@@ -41,7 +41,7 @@ export default {
 
     <div class="group-item" v-for="(group, index) in hotGroups">
       <a :href="`https://www.douban.com/group/${group.id}/`" class="group-img">
-        <img :src="groupImgs[index]" />
+        <img loading="lazy" :src="groupImgs[index]" />
       </a>
 
       <div class="right-text">

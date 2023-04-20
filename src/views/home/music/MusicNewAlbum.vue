@@ -96,7 +96,7 @@ export default {
     <div class="album-item" v-for="(album, index) in newAlbums">
       <div class="album-cover">
         <a :href="albumLink(album.id)">
-          <img :src="album.imgUrl" />
+          <img loading="lazy" :src="album.imgUrl" />
         </a>
       </div>
 

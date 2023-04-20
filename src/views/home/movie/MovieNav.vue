@@ -10,7 +10,7 @@
       </div>
       <div>
         <a href="https://movie.douban.com/explore">选电影</a>
-        <img src="@/assets/global/icon_new.gif" class="icon-new" />
+        <img loading="lazy" src="@/assets/global/icon_new.gif" class="icon-new" />
       </div>
       <div>
         <a href="https://movie.douban.com/tv/">电视剧</a>

@@ -14,7 +14,7 @@ export default {
 
     <div class="event-img">
       <a href="https://www.douban.com/gallery/topic/761/">
-        <img src="@/assets/home/market/hot_event.jpeg" />
+        <img loading="lazy" src="@/assets/home/market/hot_event.jpeg" />
       </a>
     </div>
 

@@ -61,7 +61,7 @@ export default {
 
       <div>
         违法和不良信息/涉未成年人有害信息投诉:
-        <img
+        <img loading="lazy"
           src="@/assets/home/footer/tousu_email.jpeg"
           style="height: 16px; vertical-align: top"
         />
@@ -71,14 +71,14 @@ export default {
 
       <div>
         网络从业者不良行为举报:
-        <img
+        <img loading="lazy"
           src="@/assets/home/footer/jubao_email.jpeg"
           style="height: 16px; vertical-align: top"
         />
       </div>
 
       <div>
-        <img
+        <img loading="lazy"
           src="@/assets/home/footer/jubao_center_logo.png"
           style="height: 15px; vertical-align: top"
         />
@@ -87,7 +87,7 @@ export default {
 
         电话：12377
 
-        <img
+        <img loading="lazy"
           src="@/assets/home/footer/biaoshi.gif"
           style="height: 16px; vertical-align: top"
         />

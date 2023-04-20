@@ -32,8 +32,8 @@ export default {
     <div class="song-list-item" v-for="songList in songLists">
       <div class="song-list-cover">
         <a :href="`https://music.douban.com/programme/${songList.id}`">
-          <img :src="songList.imgUrl" style="width: 80px" />
-          <img src="@/assets/home/music/icon_player.png" class="icon-overlay" />
+          <img loading="lazy" :src="songList.imgUrl" style="width: 80px" />
+          <img loading="lazy" src="@/assets/home/music/icon_player.png" class="icon-overlay" />
         </a>
       </div>
 

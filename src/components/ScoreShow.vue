@@ -27,7 +27,7 @@ export default {
 <template>
   <div class="score-show">
     <template v-if="score >= 2">
-      <img :src="scoreImgs[Math.round(score)]" />
+      <img loading="lazy" :src="scoreImgs[Math.round(score)]" />
       <span class="score-text">{{ score }}</span>
     </template>
     <template v-else> 暂无评分 </template>

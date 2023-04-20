@@ -8,7 +8,7 @@ export default {
   <div class="column-item">
     <div>
       <a :href="titleUrl">
-        <img :src="imgUrl" />
+        <img loading="lazy" :src="imgUrl" />
       </a>
     </div>
 
